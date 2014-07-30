@@ -1,3 +1,5 @@
+An experiment with ember-cli
+
 # Thingy-app
 
 This README outlines the details of collaborating on this Ember application.
