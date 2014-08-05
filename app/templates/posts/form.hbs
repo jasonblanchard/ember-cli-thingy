@@ -1,0 +1,16 @@
+<form>
+  <label>Title</label>
+  <br />
+  {{input value=post.title}}
+  <br />
+  <label>Body</label>
+  <br />
+  {{textarea value=post.body}}
+  <br />
+  <br />
+  {{#if post.isNew}}
+    <button {{action 'createPost'}}>Create Post</button>
+  {{else}}
+    <button {{action 'updatePost'}}>Update Post</button>
+  {{/if}}
+</form>

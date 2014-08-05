@@ -1,6 +1,6 @@
 import { test, moduleFor } from 'ember-qunit';
 
-moduleFor('controller:posts.new', 'Posts.NewController', {
+moduleFor('controller:posts/edit', 'PostsEditController', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });

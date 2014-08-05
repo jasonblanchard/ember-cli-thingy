@@ -1,5 +1,7 @@
-<h1>Here's the post you're asking for:</h1>
 <div>
   <h2>{{title}}</h2>
+  {{#link-to 'posts.edit' this}}edit{{/link-to}}
   <p>{{body}}</p>
 </div>
+
+{{#link-to 'posts'}}<< Back{{/link-to}}
